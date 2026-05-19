@@ -76,7 +76,11 @@ client limit.
   accounts" rule).
 - Single OAuth client, single hardware host, single human operator.
 - User-Agent strictly follows the format Reddit requires:
-  `linux:com.briangautreau.watchlist:vN.N.N (by /u/<operator-handle>)`.
+  `linux:com.briangautreau.watchlist:vN.N.N (by /u/frostydetective)`.
+- **Operator:** `u/frostydetective` (a real, long-standing personal Reddit
+  account — *not* used for any app function).
+- **App account:** `u/watchlist-agent` (dedicated, no mixed use; the only
+  account whose credentials authenticate this script).
 - If access is revoked, the agent is removed from the pipeline; the rest of
   the watchlist runs without it.
 
